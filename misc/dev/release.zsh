@@ -127,7 +127,7 @@ data=$(command cat <<EOF
 EOF
 )
 echo "$data" | jq .
-curl --data "$data" "https://api.github.com/repos/zplug/zplug/releases?access_token=ad7c45422bf3875617480b6e8ac6f80430f4a44e"
+curl --data "$data" "https://api.github.com/repos/gothrek22/zplug/releases?access_token=ad7c45422bf3875617480b6e8ac6f80430f4a44e"
 printf "Completed.\n"
 
 # curl --data \
@@ -138,6 +138,6 @@ printf "Completed.\n"
 #     "body": "'$body'", \
 #     "draft": false, \
 #     "prerelease": false \
-# }' "https://api.github.com/repos/zplug/zplug/releases?access_token=ad7c45422bf3875617480b6e8ac6f80430f4a44e"
+# }' "https://api.github.com/repos/gothrek22/zplug/releases?access_token=ad7c45422bf3875617480b6e8ac6f80430f4a44e"
 #
 # printf "Completed.\n"
